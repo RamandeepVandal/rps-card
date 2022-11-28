@@ -9,7 +9,7 @@ export const Instructions = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tenetur voluptas aliquid perspiciatis recusandae at in sequi laborum culpa, 
                 officiis dicta rerum fugiat hic praesentium aut totam accusantium ipsam harum sunt.</p>
-            <Link to="/MainScreen"><button>Back</button></Link>
+            <Link to="/"><button>Back</button></Link>
         </div>
     )
 }
