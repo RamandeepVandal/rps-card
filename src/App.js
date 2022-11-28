@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/MainScreen" exact element={<MainScreen />} />
+        <Route path="/" exact element={<MainScreen />} />
         <Route path="/Instructions" element={<Instructions />} />
         <Route path="/Game" element={<Game />} />
         <Route path="/GameOver" element={<GameOver />} />
