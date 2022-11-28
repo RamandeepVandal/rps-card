@@ -273,7 +273,7 @@ function Game() {
         }
       }>Distribute Cards</button>
       <button onClick={() => checkForWin()}>Check</button>
-      <Link to="/MainScreen"><button>Main Page</button></Link>
+      <Link to="/"><button>Main Page</button></Link>
       <h3>{winner}</h3>
     </div>
   );
