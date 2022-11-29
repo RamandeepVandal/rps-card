@@ -6,7 +6,9 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { MainScreen } from './screens/MainScreen';
 import Game from './screens/Game';
 import { Instructions } from './screens/Instructions';
-import { GameOver } from './screens/GameOver';
+import { Select } from './screens/Select';
+import GameAI from './screens/GameAI';
+import { SelectAI } from './screens/SelectAI';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Route path="/" exact element={<MainScreen />} />
         <Route path="/Instructions" element={<Instructions />} />
         <Route path="/Game" element={<Game />} />
-        <Route path="/GameOver" element={<GameOver />} />
+        <Route path="/Select" element={<Select />} />
+        <Route path="/GameAI" element={<GameAI />} />
+        <Route path="/SelectAI" element={<SelectAI />} />
       </Routes>
     </Router>
   );

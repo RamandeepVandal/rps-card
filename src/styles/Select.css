@@ -1,0 +1,23 @@
+.primary-section {
+    text-align: center;
+}
+
+.select-wrapper {
+    margin-bottom: 80px;
+}
+
+select {
+    margin: 15px;
+    height: 2rem;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+}
+
+option {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
