@@ -1,6 +1,7 @@
 .instructions {
     transform: translateY(25%);
     text-align: center;
+    color: white;
 }
 
 span {

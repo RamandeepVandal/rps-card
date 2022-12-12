@@ -1,5 +1,6 @@
 * {
   color: white;
+  font-family: cursive;
 }
 
 .App {
@@ -19,16 +20,16 @@
 }
 
 .user-cards {
-  margin: 50px;
+  margin: 40px;
   transform: translateY(10px);
 }
 
 .comp-cards {
-  margin: 50px;
+  margin: 40px;
 }
 
 img {
-  height: 150px;
+  height: 95px;
 }
 
 input, label {  
@@ -55,16 +56,19 @@ button {
   margin: 10px;
   padding: 5px;
   background: none;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #FF10F0;
+
+  box-shadow: 0px 0px 10px #FF10F0, 0px 0px 20px #FF10F0, 0px 0px 40px #FF10F0;
+
+  color: #FF10F0;
   border-radius: 0.75em;
   font-weight: bold;
   transition: 0.5s ease all;
 }
 
 button:hover {
-  transform: scale(1.25);
-  background-color: white;
-  border-color: 2px solid white;
+  transform: scale(2);
+  background-color: #FF10F0;
+  border-color: 2px solid black;
   color: black;
 }

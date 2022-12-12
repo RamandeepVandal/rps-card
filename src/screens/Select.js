@@ -16,12 +16,12 @@ export const Select = () => {
             <h1>Experience Level: </h1>
             <label for="exp">Choose Level:</label>
             <br/>
-            <div className='select-wrapper'>
-                <select value={option} name="exp" id="exp" onChange={onChangeSelection}>
-                    <option value="Experienced">Experienced</option>
-                    <option value="In-experienced">In-experienced</option>
-                </select>
-            </div>
+            <div className="selection" onChange={onChangeSelection}>
+                    <input type="checkbox" id="Experienced" name="pvp-selection" value="Experienced" />
+                    <label htmlFor="Experienced">Experienced</label>
+                    <input type="checkbox" id="In-Experienced" name="pvp-selection" value="In-Experienced" />
+                    <label htmlFor="In-Experienced">In-Experienced</label>
+                </div>
             <br/>
             <Link className='link-selection' to={option === 'Experienced' ? '/Game' : '/Instructions'}>Start Game</Link>
         </div>

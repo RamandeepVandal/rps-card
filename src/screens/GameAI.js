@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import '../App.css';
 
 // card images 
-import rock from '../img/rock.png';
-import scissors from '../img/scissors.png';
-import paper from '../img/paper.png';
+import rock from '../img/rock2.jpg';
+import scissors from '../img/scissors2.jpg';
+import paper from '../img/paper2.jpg';
 
 function GameAI() {
 
@@ -270,11 +270,11 @@ function GameAI() {
             {cardImage.map((cardImage, index) => (<img key={index} src={cardImage} />))}
           </ul>
           <div onChange={onChangeSelection}>
-            <input type="checkbox" id="rock" name="rps-selection" value="rock" />
+            <input type="radio" id="rock" name="rps-selection" value="rock" />
             <label htmlFor="rock">Rock</label>
-            <input type="checkbox" id="paper" name="rps-selection" value="paper" />
+            <input type="radio" id="paper" name="rps-selection" value="paper" />
             <label htmlFor="paper">Paper</label>
-            <input type="checkbox" id="scissors" name="rps-selection" value="scissors" />
+            <input type="radio" id="scissors" name="rps-selection" value="scissors" />
             <label htmlFor="scissors">Scissor</label>
           </div>
         </div>
