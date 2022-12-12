@@ -1,6 +1,10 @@
 * {
   color: white;
+<<<<<<< HEAD
   font-family: cursive;
+=======
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+>>>>>>> 883de2e631b8ad260bb2aeadee778766f06b29b7
 }
 
 .App {
@@ -67,8 +71,14 @@ button {
 }
 
 button:hover {
+<<<<<<< HEAD
   transform: scale(2);
   background-color: #FF10F0;
   border-color: 2px solid black;
+=======
+  padding: 15px;
+  background-color: white;
+  border-color: 2px solid white;
+>>>>>>> 883de2e631b8ad260bb2aeadee778766f06b29b7
   color: black;
 }
